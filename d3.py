@@ -1,10 +1,9 @@
-p=input()
-q=["a","e","i","o","u","A","E","I","O","U"]
-if ((ord(a) in range(65,91))or(ord(a) in range(97,124))):
-  if(p in q):
-    print("Vowel")
+y1=input()
+if((y1>='a' and y1<='z') or (y1>='A' and y1<='Z')):
+  y1=y1.lower()
+  if(y1=='a' or y1=='e' or y1=='i' or y1=='o' or y1=='u'):
+     print("Vowel")
   else:
-    print("Consonant")
+     print("Consonant")
 else:
-  print("invalid")
-  
+    print("Special Characters")
